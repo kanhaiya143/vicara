@@ -1,0 +1,169 @@
+*{
+  margin: 0; padding:0;
+  font-family: 'Montserrat', sans-serif;
+  background: #000000;
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+
+nav{
+  width: 100%; height: 100px;
+  display: flex; color: white;
+
+}
+
+.logo{
+  width: 100%;
+  height: 100px;
+}
+
+.logo h1{
+  line-height: 100px;
+  margin-left: 160px;
+  font-size: 1cm;
+  background: #000000;
+
+}
+.menu{
+  width: 100%; height: 100px;
+
+
+}
+
+.menu .buy{
+
+  background: #000000;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+
+}
+.menu ul{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5cm;
+  align-items:  center;
+
+
+}
+
+.menu ul a{
+  list-style: none;
+  font-size: 12px;
+  font-weight: bold;
+  color:gray;
+
+}
+.menu ul a:hover{
+  color: white;
+}
+
+
+.topleft{ width: 100%; height: 300px;  margin-top: 80px; padding: 40px;
+margin-left: 60px;}
+
+.topleft h1{
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+   }
+
+
+
+.topleft .b1 {
+  margin-top: 1cm;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background: linear-gradient(to right, #00b2ff, #007bff) repeat-x;
+  padding: 0px 20px ;
+}
+.topleft .b2 {
+  margin-top: 1cm;
+  font-size: 17px;
+  font-weight: 600;
+  margin-left: 1cm;
+  background: #000000;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+
+  padding: 0px 30px ;
+}
+
+.bg-image {
+  background: #000000;
+  text-align: center;
+
+
+}
+
+.video{
+  color: white;
+  background: #000000;
+  align-content: center;
+  margin-left: 10cm;
+}
+.video h1{
+  margin-left: 7cm;
+  margin-bottom: 1cm;
+}
+
+.first{ display: flex;
+margin-top: 2cm;
+flex-direction: row; }
+
+.firstright { width: 45%; height: auto; overflow: hidden; margin-top: 20px;
+  margin-right: 10cm;
+}
+
+.firstright img{  width: 30vw; }
+
+.firstleft{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
+
+.firstleft h1{ text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+
+   }
+
+.second{
+  display: flex;
+  margin-top: 2cm;
+  flex-direction: row;
+}
+.secondleft{ width: 45%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;
+
+}
+.secondleft h1{ text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+
+
+ }
+.secondmiddle img{  width: 10vw;
+
+}
+
+.secondright { width: 20%; height: auto; overflow: hidden;
+  color: white;
+  margin-top: 4cm;
+  margin-left: 4cm;
+
+}
+
